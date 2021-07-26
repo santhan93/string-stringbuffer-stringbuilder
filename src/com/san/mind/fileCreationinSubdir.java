@@ -16,6 +16,7 @@ public class fileCreationinSubdir {
 			count++;
 			System.out.println(S6);
 		}
+		System.out.println("No of files are:"+count);
 		File f2 = new File(f,"ACH1.txt");//with file object reference
 		f2.createNewFile();
 		System.out.println(f2.exists());
